@@ -1,0 +1,49 @@
+html,body{
+    background-color: rgb(255 255 255);
+margin: 0;
+text-align: center;
+}
+.contain{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color:rgba(0,0,0,0.1) ;
+    
+    }
+
+button{
+    border: none;
+    padding: 10px;
+    justify-content: space-around;
+}
+    
+
+input{
+    text-align: left;
+    padding: 20px;
+    font-size:15px ;
+}
+#search{
+    border-radius: 10em;
+    width: 40%;
+    height: 30%;
+    padding-bottom:10px ;
+}
+#search:focus{
+ border: none;
+ border-radius: 5em;
+
+}
+.nav{
+color: blue;
+display: inline;
+}
+.nav li{
+    display: inline;
+    padding: 3px;
+}
+@media screen and (min-width:478px){
+    #container{
+        width: 90%;
+    }
+}
